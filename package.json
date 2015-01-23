@@ -1,0 +1,9 @@
+{
+  "name": "node-tech-ruuid",
+    "version": "1.0.0",
+    "main" : "techRuuid.js",
+  "dependencies": {
+    "node-uuid": "^1.4.1",
+    "underscore": "^1.7.0"
+  }
+}
