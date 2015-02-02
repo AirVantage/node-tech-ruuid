@@ -1,13 +1,15 @@
 {
     "name": "node-tech-ruuid",
     "version": "1.0.0",
+    "description": "Technical component used to generate v4 UUIDs prefixed with 'avop-ruuid-'",
+    "license": "MIT",
     "main": "techRuuid.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/AirVantage/node-tech-ruuid.git"
     },
     "dependencies": {
-        "node-uuid": "^1.4.1",
-        "underscore": "^1.7.0"
+        "lodash": "^3.0.1",
+        "node-uuid": "^1.4.1"
     }
 }
