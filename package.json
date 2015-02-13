@@ -9,7 +9,7 @@
     "url": "https://github.com/AirVantage/node-tech-ruuid.git"
   },
   "dependencies": {
-    "lodash": "^3.0.1",
+    "lodash": "^3.2.0",
     "node-uuid": "^1.4.1"
   },
   "devDependencies": {
