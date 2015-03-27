@@ -1,6 +1,6 @@
 {
   "name": "node-tech-ruuid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Technical component used to generate v4 UUIDs prefixed with 'avop-ruuid-'",
   "license": "MIT",
   "main": "techRuuid.js",
