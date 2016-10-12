@@ -5,7 +5,7 @@ var uuid = require("node-uuid");
 var PREFIX = "avop-ruuid-";
 
 function isRuuid(ruuid) {
-    return _.isString(ruuid) && (ruuid.indexOf(PREFIX) === 0);
+    return _.startsWith(ruuid, PREFIX);
 }
 
 module.exports = {
