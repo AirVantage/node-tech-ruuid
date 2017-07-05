@@ -1,20 +1,32 @@
 {
-  "name": "node-tech-ruuid",
-  "version": "1.0.4",
-  "description": "Technical component used to generate v4 UUIDs prefixed with 'avop-ruuid-'",
-  "license": "MIT",
-  "main": "techRuuid.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AirVantage/node-tech-ruuid.git"
-  },
-  "dependencies": {
-    "lodash": "^4.16.0",
-    "node-uuid": "^1.4.1"
-  },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-release": "^0.11.0",
-    "grunt-tag": "^0.1.0"
-  }
+    "name": "node-tech-ruuid",
+    "version": "1.0.4",
+    "description": "Technical component used to generate v4 UUIDs prefixed with 'avop-ruuid-'",
+    "license": "MIT",
+    "main": "techRuuid.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AirVantage/node-tech-ruuid.git"
+    },
+    "dependencies": {
+        "lodash": "^4.16.0",
+        "node-uuid": "^1.4.1"
+    },
+    "devDependencies": {
+        "eslint": "^4.1.1",
+        "grunt": "^0.4.5",
+        "grunt-release": "^0.11.0",
+        "grunt-tag": "^0.1.0",
+        "prettier": "^1.5.2"
+    },
+    "eslintConfig": {
+        "env": {
+            "node": true,
+            "es6": true
+        },
+        "extends": ["eslint:recommended"],
+        "rules": {
+            "linebreak-style": ["error", "unix"]
+        }
+    }
 }
